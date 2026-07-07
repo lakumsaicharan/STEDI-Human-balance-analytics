@@ -40,30 +40,6 @@ The pipeline ensures that only customers who have consented to share their data 
 
 ---
 
-## 📁 Project Structure
-
-```text
-STEDI-Human-balance-analytics/
-│
-├── glue-jobs/
-│   ├── customer_trusted.py
-│   ├── accelerometer_trusted.py
-│   ├── customer_curated.py
-│   └── machine_learning_curated.py
-│
-├── screenshots/
-│   ├── job_runs/
-│   ├── s3/
-│   ├── athena/
-│   └── glue/
-│
-├── architecture/
-│   └── pipeline_diagram.png
-│
-├── README.md
-└── LICENSE
-```
-
 > *Folder names may vary depending on your repository structure.*
 
 ---
