@@ -11,6 +11,6 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://spark-demo-s3bucket-120/accelerometer/landing/'
+  's3://stedi-human-data-analytics-bucket/accelerometer/landing/'
 TBLPROPERTIES (
   'classification'='json')
